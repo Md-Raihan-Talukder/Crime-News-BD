@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sultanahmed.crimenewsbd">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Welcome">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Stat" />
+        <activity android:name=".Map" />
+        <activity android:name=".ShowAllNews" />
+        <activity android:name=".Details" />
+        <activity android:name=".AddNews" />
+        <activity android:name=".Login" />
+        <activity android:name=".Signup" />
+        <activity android:name=".PoliceStationAdd" />
+        <activity android:name=".PoliceStationList" />
+        <activity android:name=".LoginStation" />
+        <activity android:name=".PoliceStationDetail" />
+        <activity android:name=".MurderShow" />
+        <activity android:name=".RapeShow" />
+        <activity android:name=".IllegalShow" />
+        <activity android:name=".RobberyShow" />
+        <activity android:name=".CorruptionShow" />
+        <activity android:name=".SportsShow" />
+        <activity android:name=".Verify" />
+        <activity android:name=".Dhaka" />
+        <activity android:name=".Review" />
+        <activity android:name=".Barisal"></activity>
+    </application>
+
+</manifest>

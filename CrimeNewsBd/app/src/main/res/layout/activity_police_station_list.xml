@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sultanahmed.crimenewsbd.PoliceStationList">
+
+    <EditText
+        android:layout_width="1dp"
+        android:layout_height="20dp"
+        android:cursorVisible="false"
+        android:background="@android:color/transparent"/>
+
+    <LinearLayout
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="40dp"
+        >
+
+        <AutoCompleteTextView
+            android:drawableRight="@drawable/ic_action_name_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:singleLine="true"
+            android:id="@+id/dis"
+            android:hint="type district name"
+            android:paddingVertical="5dp"
+            android:background="@drawable/border3"
+            android:textSize="24dp"
+
+            >
+
+        </AutoCompleteTextView>
+    </LinearLayout>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/stationList">
+    </ListView>
+
+</LinearLayout>

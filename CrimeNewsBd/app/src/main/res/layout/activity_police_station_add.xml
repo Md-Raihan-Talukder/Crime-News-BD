@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_main"
+    android:layout_marginHorizontal="10dp"
+    tools:context="com.example.sultanahmed.crimenewsbd.AddNews">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginVertical="10dp"
+        android:paddingHorizontal="15dp"
+        android:textSize="30dp"
+        android:background="@drawable/border3"
+        android:inputType="textPersonName"
+        android:hint="name"
+        android:ems="10"
+        android:id="@+id/station_name" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="15dp"
+        android:layout_marginVertical="10dp"
+        android:textSize="30dp"
+        android:background="@drawable/border3"
+        android:inputType="textPersonName"
+        android:hint="number"
+        android:ems="10"
+        android:id="@+id/number" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingHorizontal="15dp"
+        android:inputType="textPersonName"
+        android:hint="email"
+        android:ems="10"
+        android:layout_marginVertical="10dp"
+        android:textSize="30dp"
+        android:background="@drawable/border3"
+        android:id="@+id/email" />
+
+    <Button
+        android:text="Add Station"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:layout_marginHorizontal="30dp"
+        android:textSize="30dp"
+        android:background="@drawable/border4"
+        android:id="@+id/entry"
+        android:onClick="insert"/>
+
+</LinearLayout>

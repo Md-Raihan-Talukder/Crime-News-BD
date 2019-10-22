@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:id="@+id/activity_main"
+    android:background="@drawable/border"
+    tools:context="com.example.sultanahmed.crimenewsbd.AddNews">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Title"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:paddingHorizontal="5dp"
+        android:layout_height="60dp"
+        android:inputType="textPersonName"
+        android:hint="title"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:id="@+id/title" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="News"
+        android:textColor="#000000"/>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@drawable/border">
+    <EditText
+        android:id="@+id/news"
+        android:background="@android:color/transparent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:ems="10"
+        android:paddingHorizontal="5dp"
+        android:hint="news"
+        android:gravity="left"
+        android:inputType="textMultiLine"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</LinearLayout>
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="185dp"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:inputType="date"
+            android:paddingLeft="2dp"
+            android:hint="         select date"
+            android:textColorHint="#000000"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:ems="10"
+            android:id="@+id/time" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:src="@drawable/ic_action_time"
+            android:background="@drawable/oval"
+            android:elevation="10dp" />
+        <TextClock
+            android:paddingHorizontal="2dp"
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textStyle="bold|italic"
+            android:hint="time"
+            android:textColorHint="#000000"
+            android:ems="10"
+            android:id="@+id/text2"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="@drawable/border"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="5dp">
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#000000"/>
+
+        <Spinner
+            android:id="@+id/myspinner"
+            android:layout_width="250dp"
+            android:layout_height="35dp"
+            android:layout_weight="2"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/entry"
+        android:background="#da050d48"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="20dp"
+        android:onClick="insert"
+        android:text="Post News"
+        android:textColor="#c1f1f2"
+        android:textColorHint="#c1f1f2"
+        android:textStyle="bold" />
+
+
+
+</LinearLayout>

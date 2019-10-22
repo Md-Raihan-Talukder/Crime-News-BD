@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "70690915620",
+    "firebase_url": "https://crime-news-bd.firebaseio.com",
+    "project_id": "crime-news-bd",
+    "storage_bucket": "crime-news-bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70690915620:android:1155ce4f1fb12d9a",
+        "android_client_info": {
+          "package_name": "com.example.sultanahmed.crimenewsbd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "70690915620-fp7nb5ietqji85e8qqs9unta7cpku9ce.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sultanahmed.crimenewsbd",
+            "certificate_hash": "4183cf383e9c5e9f1b5d27e7ef0ee29ec72ac593"
+          }
+        },
+        {
+          "client_id": "70690915620-hseb0ksle36082arb4dgjn12ant0s1nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8RCvy5u4kP1gzVdUKIywJxhSARfU15x8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "70690915620-hseb0ksle36082arb4dgjn12ant0s1nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
